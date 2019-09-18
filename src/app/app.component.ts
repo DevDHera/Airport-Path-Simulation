@@ -23,7 +23,7 @@ export class AppComponent {
       if (event instanceof NavigationStart) {
         this.footerVisibility = false;
       } else {
-        setTimeout(() => { this.footerVisibility = true }, 1000);
+        setTimeout(() => { this.footerVisibility = true }, 700);
       }
     });
 
