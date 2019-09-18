@@ -5,8 +5,8 @@ import { AboutUsComponent } from './pages/about-us/about-us.component';
 
 
 const routes: Routes = [
-  { path: '', component: LandingComponent, pathMatch: 'full' },
-  { path: 'team', component: AboutUsComponent }
+  { path: '', component: LandingComponent, pathMatch: 'full', data: { animation: 'isRight' } },
+  { path: 'team', component: AboutUsComponent, data: { animation: 'isLeft' } }
 ];
 
 @NgModule({
