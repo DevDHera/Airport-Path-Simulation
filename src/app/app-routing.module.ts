@@ -1,10 +1,12 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { MapComponent } from './map/map.component';
+import { LandingComponent } from './pages/landing/landing.component';
+import { AboutUsComponent } from './pages/about-us/about-us.component';
 
 
 const routes: Routes = [
-  { path: '', component: MapComponent, pathMatch: 'full' }
+  { path: '', component: LandingComponent, pathMatch: 'full' },
+  { path: 'team', component: AboutUsComponent }
 ];
 
 @NgModule({
