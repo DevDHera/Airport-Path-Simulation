@@ -27,7 +27,7 @@
     "datatables.net": "^1.11.3",
     "datatables.net-bs4": "^1.10.19",
     "datatables.net-dt": "^1.10.19",
-    "firebase": "^6.6.1",
+    "firebase": "^9.15.0",
     "font-awesome": "^4.7.0",
     "jquery": "^3.5.0",
     "ngx-google-places-autocomplete": "^2.0.4",
